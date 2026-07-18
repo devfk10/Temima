@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout — Temima Cabinets</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav-row">
+    <a href="index.html" class="logo">TEMIMA<span>.</span></a>
+    <div class="nav-actions" style="margin-left:auto;">
+      <span style="font-size:13px;color:#6b6656;display:flex;align-items:center;gap:6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1F8A5F" stroke-width="2"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+        Secure Checkout
+      </span>
+    </div>
+  </div>
+</header>
+
+<section style="padding-top:44px;">
+  <div class="wrap">
+    <div class="checkout-steps">
+      <div class="co-step active">1. Information</div>
+      <div class="co-step">2. Shipping</div>
+      <div class="co-step">3. Payment</div>
+    </div>
+
+    <div class="checkout-grid">
+      <div>
+        <div class="q-form" style="padding:32px;">
+          <h3 style="font-size:17px;margin-bottom:18px;">Contact</h3>
+          <div class="q-row">
+            <div class="field"><label>Email</label><input type="email" placeholder="you@email.com"></div>
+            <div class="field"><label>Phone</label><input type="tel" placeholder="(555) 000-0000"></div>
+          </div>
+          <label class="filter-opt" style="margin-bottom:24px;"><input type="checkbox"> Email me with news and offers</label>
+
+          <h3 style="font-size:17px;margin-bottom:18px;">Shipping Address</h3>
+          <div class="q-row">
+            <div class="field"><label>First Name</label><input type="text" placeholder="Jordan"></div>
+            <div class="field"><label>Last Name</label><input type="text" placeholder="Reyes"></div>
+          </div>
+          <div class="field"><label>Address</label><input type="text" placeholder="123 Maple Street"></div>
+          <div class="q-row">
+            <div class="field"><label>City</label><input type="text" placeholder="Austin"></div>
+            <div class="field"><label>State</label><input type="text" placeholder="TX"></div>
+          </div>
+          <div class="field" style="max-width:200px;"><label>ZIP Code</label><input type="text" placeholder="78701"></div>
+
+          <h3 style="font-size:17px;margin:28px 0 18px;">Payment</h3>
+          <div class="pay-options">
+            <div class="pay-opt selected"> Credit / Debit Card</div>
+            <div class="pay-opt"> Apple Pay</div>
+            <div class="pay-opt"> Google Pay</div>
+            <div class="pay-opt"> PayPal</div>
+          </div>
+          <div class="field"><label>Card Number</label><input type="text" placeholder="1234 1234 1234 1234"></div>
+          <div class="q-row">
+            <div class="field"><label>Expiry</label><input type="text" placeholder="MM / YY"></div>
+            <div class="field"><label>CVC</label><input type="text" placeholder="123"></div>
+          </div>
+
+          <div class="ssl-row">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9a9585" stroke-width="2"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+            256-bit SSL encrypted · Your payment information is never stored
+          </div>
+
+          <a href="index.html" class="btn btn-primary btn-block" style="margin-top:26px;">Place Order — $4,892</a>
+        </div>
+      </div>
+
+      <div class="summary-card">
+        <h3 style="font-size:18px;margin-bottom:20px;">Order Summary</h3>
+        <div class="cart-item" style="grid-template-columns:64px 1fr auto;padding:14px 0;">
+          <img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=200&auto=format&fit=crop" alt="Warm Oak Shaker" style="width:64px;height:64px;">
+          <div><div class="ci-name" style="font-size:13.5px;">Warm Oak Shaker Set</div><div class="ci-meta">Qty 1</div></div>
+          <div class="ci-price" style="font-size:14px;">$2,890</div>
+        </div>
+        <div class="cart-item" style="grid-template-columns:64px 1fr auto;padding:14px 0;">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=200&auto=format&fit=crop" alt="Slate Grey Slab" style="width:64px;height:64px;">
+          <div><div class="ci-name" style="font-size:13.5px;">Slate Grey Slab Set</div><div class="ci-meta">Qty 1</div></div>
+          <div class="ci-price" style="font-size:14px;">$1,640</div>
+        </div>
+        <div class="sum-row" style="margin-top:16px;"><span>Subtotal</span><span>$4,530</span></div>
+        <div class="sum-row"><span>Shipping (Freight)</span><span>Free</span></div>
+        <div class="sum-row"><span>Tax</span><span>$362</span></div>
+        <div class="sum-row total"><span>Total</span><span>$4,892</span></div>
+        <div class="trust-mini">
+          <span>🔒 Secure checkout</span>
+          <span>↩ 30-day returns</span>
+          <span>🛡 Lifetime warranty</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom" style="margin-top:0;border-top:none;">
+      <span>© 2026 Temima Cabinets. All rights reserved.</span>
+      <div class="payments"><span>Visa</span><span>MC</span><span>Amex</span><span>Pay</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
