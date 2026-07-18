@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart — Temima Cabinets</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav-row">
+    <a href="index.html" class="logo">TEMIMA<span>.</span></a>
+    <nav class="nav-links">
+      <a href="category.html">Shop Cabinets</a>
+      <a href="index.html#process">How It Works</a>
+      <a href="quote.html">Get a Quote</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="icon-btn-wrap">
+        <a href="cart.html" class="icon-btn" aria-label="Cart"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="cart-count">2</span></a>
+      </div>
+      <button class="menu-toggle" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#152238" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<section style="padding-top:48px;">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:24px;">
+      <span class="eyebrow">Step 1 of 3</span>
+      <h2>Your Cart</h2>
+    </div>
+
+    <div class="cart-grid">
+      <div>
+        <div class="cart-progress">
+          <span>$150 to free freight</span>
+          <div class="bar"><i></i></div>
+          <span>$2,500</span>
+        </div>
+
+        <div class="cart-item">
+          <img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=300&auto=format&fit=crop" alt="Warm Oak Shaker">
+          <div>
+            <div class="ci-name">Warm Oak Shaker — Base Cabinet Set</div>
+            <div class="ci-meta">Finish: Warm Oak · 12 base units</div>
+            <div class="ci-qty" style="margin-top:12px;"><button aria-label="Decrease">−</button><span>1</span><button aria-label="Increase">+</button></div>
+            <a href="#" class="ci-remove" onclick="event.preventDefault();this.closest('.cart-item').style.display='none';">Remove</a>
+          </div>
+          <div class="ci-price">$2,890</div>
+        </div>
+
+        <div class="cart-item">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=300&auto=format&fit=crop" alt="Slate Grey Slab">
+          <div>
+            <div class="ci-name">Slate Grey Slab — Wall Cabinet Set</div>
+            <div class="ci-meta">Finish: Slate Grey · 8 wall units</div>
+            <div class="ci-qty" style="margin-top:12px;"><button aria-label="Decrease">−</button><span>1</span><button aria-label="Increase">+</button></div>
+            <a href="#" class="ci-remove" onclick="event.preventDefault();this.closest('.cart-item').style.display='none';">Remove</a>
+          </div>
+          <div class="ci-price">$1,640</div>
+        </div>
+
+        <div class="center" style="margin-top:28px;">
+          <a href="category.html" class="btn btn-outline-navy btn-sm">← Continue Shopping</a>
+        </div>
+
+        <div class="section-head" style="margin:56px 0 24px;">
+          <span class="eyebrow">You May Also Like</span>
+          <h2 style="font-size:24px;">Frequently Bought Together</h2>
+        </div>
+        <div class="product-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="p-card">
+            <div class="p-media"><img class="main" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=500&auto=format&fit=crop" alt="Soft-close hinge kit"></div>
+            <div class="p-body"><div class="p-cat">Hardware</div><div class="p-name">Soft-Close Hinge Kit</div><div class="p-price-row"><div class="p-price">$89</div><button class="p-add js-add-cart">+</button></div></div>
+          </div>
+          <div class="p-card">
+            <div class="p-media"><img class="main" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=500&auto=format&fit=crop" alt="Cabinet pulls"></div>
+            <div class="p-body"><div class="p-cat">Hardware</div><div class="p-name">Brushed Brass Pulls (10-pack)</div><div class="p-price-row"><div class="p-price">$64</div><button class="p-add js-add-cart">+</button></div></div>
+          </div>
+          <div class="p-card">
+            <div class="p-media"><img class="main" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=500&auto=format&fit=crop" alt="Crown molding"></div>
+            <div class="p-body"><div class="p-cat">Trim</div><div class="p-name">Crown Molding — Warm Oak</div><div class="p-price-row"><div class="p-price">$145</div><button class="p-add js-add-cart">+</button></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary-card">
+        <h3 style="font-size:18px;margin-bottom:20px;">Order Summary</h3>
+        <div class="sum-row"><span>Subtotal (2 items)</span><span>$4,530</span></div>
+        <div class="sum-row"><span>Estimated Shipping</span><span>Calculated at checkout</span></div>
+        <div class="sum-row"><span>Estimated Tax</span><span>$362</span></div>
+        <div class="coupon-row">
+          <input type="text" placeholder="Coupon code">
+          <button class="btn btn-outline-navy btn-sm">Apply</button>
+        </div>
+        <div class="sum-row total"><span>Estimated Total</span><span>$4,892</span></div>
+        <a href="checkout.html" class="btn btn-primary btn-block" style="margin-top:18px;">Proceed to Checkout</a>
+        <div class="trust-mini">
+          <span>🔒 Secure checkout</span>
+          <span>↩ 30-day returns</span>
+          <span>🛡 Lifetime warranty</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom" style="margin-top:0;border-top:none;">
+      <span>© 2026 Temima Cabinets. All rights reserved.</span>
+      <div class="payments"><span>Visa</span><span>MC</span><span>Amex</span><span>Pay</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
